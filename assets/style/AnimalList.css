@@ -1,0 +1,24 @@
+table {
+    background-color: darkseagreen;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.animals-list > span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+td > a {
+    color: brown;
+    text-decoration: underline;
+}
+
+td > a:hover {
+    color: crimson;
+}
