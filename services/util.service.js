@@ -58,6 +58,11 @@ function getMonthName(date) {
     return monthNames[date.getMonth()]
 }
 
+export function capitalizeString(str){
+    return str[0].toUpperCase() + str.slice(1, str.length)
+}
+
+
 function animateCSS(el, animation='bounce') {
     const prefix = 'animate__'
     return new Promise((resolve, reject) => {
