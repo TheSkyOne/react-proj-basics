@@ -1,0 +1,45 @@
+.season-clock{
+    display: inline-block;
+    width: max-content;
+    text-align: center;
+}
+
+[data-season="Winter"]{
+    background-color: lightcyan;
+    color: royalblue;
+}
+
+[data-season="Winter"].dark{
+    background-color: royalblue;
+    color: lightcyan;
+}
+
+[data-season="Spring"]{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+[data-season="Spring"].dark{
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+[data-season="Summer"]{
+    background-color: firebrick;
+    color: darkorange;
+}
+
+[data-season="Summer"].dark{
+    background-color: darkorange;
+    color: firebrick;
+}
+
+[data-season="Autumn"]{
+    background-color: orangered;
+    color: olive;
+}
+
+[data-season="Autumn"].dark{
+    background-color: olive;
+    color: orangered;
+}
