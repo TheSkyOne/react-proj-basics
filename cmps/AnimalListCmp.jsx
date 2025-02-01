@@ -1,5 +1,5 @@
 export function AnimalList({animalsInfo}){
-    console.log(animalsInfo)
+
 
     return (
         <div className="animals-list">
@@ -10,7 +10,7 @@ export function AnimalList({animalsInfo}){
                     <tr key={animal.type}>
                         <td>{animal.type}</td>
                         <td>{animal.count}</td>
-                        <td><a href={`https://www.google.com/search?q=${animal.type}`}>search</a></td>
+                        <td><a href={`https://www.google.com/search?q=${animal.type}`} target="_blank" rel="noopener noreferrer">search</a></td>
                     </tr>))}
                 </tbody>
             </table>
