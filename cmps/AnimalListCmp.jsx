@@ -1,4 +1,4 @@
-export function AnimalListCmp({animalsInfo}){
+export function AnimalList({animalsInfo}){
     console.log(animalsInfo)
 
     return (
