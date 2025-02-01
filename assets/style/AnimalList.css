@@ -1,5 +1,9 @@
-table {
+.animals-list {
     background-color: darkseagreen;
+    width: max-content;
+}
+
+table {
     border-collapse: collapse;
 }
 
