@@ -75,7 +75,14 @@ export function WatcherApp(){
     }
 
     async function onSelectWatcher(watcherId) {
-        
+        const watcher = watchers.find(watcher => watcher.id === watcherId)
+        setSelectedWatcher(watcher)
+        document.querySelector(".watcher-details-modal").style.visibility = "visible"
+        console.log(watcher)
+    }
+
+    function onCloseModalClicked(){
+        document.querySelector(".watcher-details-modal").style.visibility = "hidden"
     }
 
     function makeWatcher(watcherName, moviesList){
@@ -104,6 +111,15 @@ export function WatcherApp(){
                         </div>
                     </div>)
                 }
+            </div>
+            <div className="watcher-details-modal">
+                <h1>{selectedWatcher.fullname}</h1>
+                <ul>
+                    {
+                        selectedWatcher.movies && selectedWatcher.movies.map((movie, i) => <li key={i}>{movie}</li>)
+                    }
+                </ul>
+                <button onClick={onCloseModalClicked}>X</button>
             </div>
         </div>
     )
