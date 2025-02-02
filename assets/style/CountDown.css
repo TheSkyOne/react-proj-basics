@@ -1,0 +1,10 @@
+.count-down{
+    background-color: white;
+    border: double black 12px;
+    padding: 8px;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    width: 10vw;
+    text-align: center;
+}
