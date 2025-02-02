@@ -3,6 +3,7 @@ import { Home } from "./cmps/Home.jsx"
 import { AnimalList } from "./cmps/AnimalListCmp.jsx"
 import { SeasonClock } from "./cmps/SeasonClockCmp.jsx"
 import { CountDown } from "./cmps/CountDownCmp.jsx"
+import { WatcherApp } from "./cmps/WatcherAppCmp.jsx"
 
 const animalsInfo = [
     {type: 'Malayan Tiger', count: 787},
@@ -25,6 +26,7 @@ export function RootCmp() {
                 <SeasonClock _monthName="September" _day="Wednesday"/>
                 <SeasonClock/>
                 <CountDown startFrom={15} onDone={() => console.log("Done!")}/>
+                <WatcherApp/>
             </main>
         </section>
     )

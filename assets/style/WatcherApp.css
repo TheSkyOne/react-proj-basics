@@ -1,0 +1,36 @@
+.watcher-app{
+    background-color: moccasin;
+    padding: 8px 16px 32px;
+    text-align: center;
+}
+
+.watchers-list{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.watcher{
+    background-color: white;
+}
+
+.watcher-img{
+    margin: 16px;
+    width: auto;
+    aspect-ratio: 1/1;
+    background-color: cornflowerblue;
+}
+
+.watcher-name{
+    font-weight: bold;
+}
+
+.watcher > hr{
+    border: solid gray 1px;
+    margin: 0px 16px 8px;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
