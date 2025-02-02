@@ -223,3 +223,9 @@ main > hr{
 	margin: 36px 10%;
 	border: solid black 1px;
 }
+
+.season-clocks-container{
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
