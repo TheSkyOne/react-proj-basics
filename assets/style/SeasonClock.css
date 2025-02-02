@@ -25,13 +25,13 @@
 }
 
 [data-season="Summer"]{
-    background-color: firebrick;
-    color: darkorange;
+    background-color: darkorange;
+    color: firebrick;
 }
 
 [data-season="Summer"].dark{
-    background-color: darkorange;
-    color: firebrick;
+    background-color: firebrick;
+    color: darkorange;
 }
 
 [data-season="Autumn"]{
