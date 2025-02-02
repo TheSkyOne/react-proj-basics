@@ -24,13 +24,13 @@ export function SeasonClock({_monthName = "", _day = ""}){
     function getImage(season){
         switch (season){
             case "Winter":
-                return "../assets/season-imgs/winter.png"
+                return "assets/season-imgs/winter.png"
             case "Spring":
-                return "../assets/season-imgs/spring.png"
+                return "assets/season-imgs/spring.png"
             case "Summer":
-                return "../assets/season-imgs/summer.png"
+                return "assets/season-imgs/summer.png"
             case "Autumn":
-                return "../assets/season-imgs/autumn.png"
+                return "assets/season-imgs/autumn.png"
         }
         //how to do error handling here
         // return new Error(`couldnt find image for ${season} at "../assets/season-imgs/`)
