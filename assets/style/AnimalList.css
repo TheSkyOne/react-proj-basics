@@ -1,6 +1,7 @@
 .animals-list {
     background-color: darkseagreen;
     width: max-content;
+    margin: auto;
 }
 
 table {
