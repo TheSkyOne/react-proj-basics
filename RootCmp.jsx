@@ -20,13 +20,17 @@ export function RootCmp() {
             <main>
                 <Home />
                 <AnimalList animalsInfo={animalsInfo}/>
+                <hr></hr>
                 <SeasonClock _monthName="December" _day="Sunday"/>
                 <SeasonClock _monthName="March" _day="Monday"/>
                 <SeasonClock _monthName="June" _day="Tuesday"/>
                 <SeasonClock _monthName="September" _day="Wednesday"/>
                 <SeasonClock/>
+                <hr></hr>
                 <CountDown startFrom={15} onDone={() => console.log("Done!")}/>
+                <hr></hr>
                 <WatcherApp/>
+                <hr></hr>
             </main>
         </section>
     )

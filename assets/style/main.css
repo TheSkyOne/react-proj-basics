@@ -216,3 +216,9 @@ a.active {
 		color: var(--clr2bg-light);
 	}
 }
+
+
+main > hr{
+	margin: 36px 10%;
+	border: solid black 1px;
+}
