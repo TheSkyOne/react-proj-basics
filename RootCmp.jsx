@@ -23,7 +23,7 @@ export function RootCmp() {
                 <Home />
                 <AnimalList animalsInfo={animalsInfo}/>
                 <hr></hr>
-                <div class="season-clocks-container">
+                <div className="season-clocks-container">
                     <SeasonClock _monthName="December" _day="Sunday"/>
                     <SeasonClock _monthName="March" _day="Monday"/>
                     <SeasonClock _monthName="June" _day="Tuesday"/>
