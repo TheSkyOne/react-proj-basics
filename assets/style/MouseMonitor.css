@@ -1,0 +1,9 @@
+.mouse-monitor{
+    background-color: black;
+    color: whitesmoke;
+    position: sticky;
+    bottom: 4px;
+    left: 100%;
+    width: max-content;
+    padding: 16px;
+}
